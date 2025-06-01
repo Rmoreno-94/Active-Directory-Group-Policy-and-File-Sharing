@@ -2,7 +2,7 @@
 AD GP and File Sharing
 
 Summary
-This project was an extension of my previous Active Directory Homelab. I was able to build upon the previous project by establishing roles and groups typically found within corporate environments to serve as a simulated enviroment. These roles included an HR department, IT department, and Sales department and I used the previously created user profiles to fill those roles. Once these groups were established, I began to create group policies within the domain to establish the policies and preferences necessary for basic security. These policies include USB restriction, password management and lockout policies. 
+This project was an extension of my previous Active Directory Homelab. I was able to build upon the previous project by establishing roles and groups typically found within corporate environments to serve as a simulated enviroment. These roles included an HR department, IT department, and Sales department. I used user profiles that were created in the previous homelab project to fill those roles. Once these groups were established, I began to create group policies within the domain to establish the policies and preferences necessary for basic security. These policies include USB restriction, password management and lockout policies. 
 
 <br/>![AD existing users added to groups](https://github.com/user-attachments/assets/f2f3051e-94fb-4c37-a072-fb3a22dfc1ed)
 I began this project by adding previously created users to specific groups by using the active directory users and computers tool to create the groups within the domain. I then added each member individually to their corresponding group.<br/>
