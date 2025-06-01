@@ -8,7 +8,7 @@ This project was an extension of my previous Active Directory Homelab. I was abl
 I began this project by adding previously created users to specific groups by using the active directory users and computers tool to create the groups within the domain. I then added each member individually to their corresponding group.<br/>
 
 
-<br/>![AD GP Management](https://github.com/user-attachments/assets/4b1202d8-b35a-4cb7-a0f0-0a442f5d7a37)
+<br/>![AD GP Management](https://github.com/user-attachments/assets/6847c464-fcbc-40af-914c-e70f245b47c4)
 Once the groups and users were created and properly sorted, I created group policies for the domain by using the Group Policy Management Tool within the server manager. I created policies such as USB Prevention, Password management, and Account lockout policies to establish basic security policies for the environment. These policies were linked to the appropriate users and enforced to ensure compliance.<br/>
 
 
