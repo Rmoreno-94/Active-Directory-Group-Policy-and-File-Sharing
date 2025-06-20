@@ -20,3 +20,21 @@ After the policies were created, I set out to test the account lockout policy in
 <br/>![AD GP Password Lockout policy verified](https://github.com/user-attachments/assets/b0d22b6a-34c7-4e9c-878b-b8a522c49b5a)
 The profile was accessible again with the correct password after the minute had passed. In a live environment, the lockout timer would either be increased significantly or require an administrator to restore access to that profile. 
 
+
+<br/>![AD Adding Client10 to Comp OU in HQ OU](https://github.com/user-attachments/assets/6b7fc812-f763-4887-a133-276fabdc4b23)
+I then moved on to adding the Windows 10 client to a computers OU I created under the HQ OU I also created. A users OU was also added to the HQ as well. This allows for the ability to add group policies directly to the proper OUs. 
+
+
+<br/>![AD Drive Map GPO](https://github.com/user-attachments/assets/0d2e7d1a-d96b-4519-b3ac-851cdbfbd26c)
+I continued by establishing a mapped drive GPO to a shared drive named CorpFiles. This would serve as the container for simulated corporate files for the different departments in the organization. 
+
+
+
+<br/>![AD File Sharing through Network](https://github.com/user-attachments/assets/033b7f3d-ad42-4c4a-915f-f430d5c11f38)
+I then established file sharing through the network of the domain. This was accomplished by enabling the proper sharing settings through the file explorer.
+
+
+<br/>![AD File Storage Manager Service Install](https://github.com/user-attachments/assets/50fea440-a66b-4a5a-8c87-8151c0ecb736)
+
+
+
