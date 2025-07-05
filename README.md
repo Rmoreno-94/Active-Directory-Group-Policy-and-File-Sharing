@@ -26,15 +26,17 @@ I then moved on to adding the Windows 10 client to a computers OU I created unde
 
 
 <br/>![AD Drive Map GPO](https://github.com/user-attachments/assets/0d2e7d1a-d96b-4519-b3ac-851cdbfbd26c)
-I continued by establishing a mapped drive GPO to a shared drive named CorpFiles. This would serve as the container for simulated corporate files for the different departments in the organization. 
+I continued by establishing a mapped drive GPO to a shared drive named CorpFiles. This would serve as the container for simulated corporate files for the different departments in the organization. I then used the gpupdate /force command in the command prompt to force this change. 
+
+<br/>![AD Sharing over network to domain users](https://github.com/user-attachments/assets/b8795d16-6f70-48c7-ab16-11e387719a91)
+I then established file sharing through the network of the domain. This was accomplished by enabling the proper sharing settings through the CorpFiles folder in the file explorer. I added the domain users group to the sharing settings and modified the permissions to read/write which allowed domain users to have access to this folder after authenticating. 
+
+<br/>![AD Results of sharing mapped drive across domain](https://github.com/user-attachments/assets/6b2dd379-5c61-40ec-a3a5-4a20f2f449b5)
+Once the proper sharing settings were established, I was able to create a Testfile1.txt file on the DC and modify it in the Windows 10 client. 
 
 
 
-<br/>![AD File Sharing through Network](https://github.com/user-attachments/assets/033b7f3d-ad42-4c4a-915f-f430d5c11f38)
-I then established file sharing through the network of the domain. This was accomplished by enabling the proper sharing settings through the file explorer.
 
-
-<br/>![AD File Storage Manager Service Install](https://github.com/user-attachments/assets/50fea440-a66b-4a5a-8c87-8151c0ecb736)
 
 
 
